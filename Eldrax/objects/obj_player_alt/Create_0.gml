@@ -55,3 +55,9 @@ player_health = 3;
 /// @DnDHash : 14929B06
 /// @DnDArgument : "var" "invincible"
 invincible = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 41CED282
+/// @DnDArgument : "var" "stun"
+stun = 0;
