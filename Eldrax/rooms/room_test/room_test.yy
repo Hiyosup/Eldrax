@@ -1,6 +1,6 @@
 
 {
-    "name": "room_forest_edge",
+    "name": "room_test",
     "id": "0bcf7913-90d8-4432-bdb8-c737d436fefb",
     "creationCodeFile": "",
     "inheritCode": false,

@@ -61,3 +61,9 @@ invincible = 0;
 /// @DnDHash : 41CED282
 /// @DnDArgument : "var" "stun"
 stun = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 27A1BE99
+/// @DnDArgument : "var" "ani_shoot"
+ani_shoot = 0;
