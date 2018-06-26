@@ -1,18 +1,18 @@
 {
-    "id": "a67b5675-19ff-4555-989b-1c5d0b022647",
+    "id": "4c4337bf-7b94-404d-bb2c-713f3d5519ba",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_bear_trap_sprung",
     "eventList": [
         {
-            "id": "f654d1ec-544b-4522-8584-073abd1e5f42",
+            "id": "7a134472-cc2d-4a21-ab4f-5c3d30b897d2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a67b5675-19ff-4555-989b-1c5d0b022647"
+            "m_owner": "4c4337bf-7b94-404d-bb2c-713f3d5519ba"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

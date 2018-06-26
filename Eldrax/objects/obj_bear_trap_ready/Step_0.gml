@@ -10,10 +10,10 @@ if ((l51AB01C5_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 4CD692CF
+	/// @DnDHash : 2DE8FCF4
 	/// @DnDParent : 51AB01C5
 	/// @DnDArgument : "objind" "obj_bear_trap_sprung"
-	/// @DnDSaveInfo : "objind" "a67b5675-19ff-4555-989b-1c5d0b022647"
+	/// @DnDSaveInfo : "objind" "4c4337bf-7b94-404d-bb2c-713f3d5519ba"
 	instance_change(obj_bear_trap_sprung, true);
 }
 
@@ -29,9 +29,9 @@ if ((l49EFCCD8_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 3F1E8E90
+	/// @DnDHash : 2902FB87
 	/// @DnDParent : 49EFCCD8
 	/// @DnDArgument : "objind" "obj_bear_trap_sprung"
-	/// @DnDSaveInfo : "objind" "a67b5675-19ff-4555-989b-1c5d0b022647"
+	/// @DnDSaveInfo : "objind" "4c4337bf-7b94-404d-bb2c-713f3d5519ba"
 	instance_change(obj_bear_trap_sprung, true);
 }
