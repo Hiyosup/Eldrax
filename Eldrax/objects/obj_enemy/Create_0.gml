@@ -38,3 +38,9 @@ cooldown = 0;
 /// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "enemy_health"
 enemy_health = 3;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 260AFFEF
+/// @DnDArgument : "var" "poison"
+poison = 0;
