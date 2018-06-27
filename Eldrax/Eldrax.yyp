@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "10d1b53e-8336-48f3-9f2c-891cf0dc0f3b",
+            "Value": {
+                "id": "33ef87d8-648e-4742-8032-8773e5eeb383",
+                "resourcePath": "sprites\\spr_shoe\\spr_shoe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "10e3be8e-e93d-402f-9f91-f7fe3406f536",
             "Value": {
                 "id": "f93277d9-3e14-45d3-b1bc-996f713591c9",
