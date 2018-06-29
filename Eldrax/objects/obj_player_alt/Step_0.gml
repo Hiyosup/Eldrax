@@ -93,13 +93,16 @@ if(grounded == 0)
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1
 	/// @DnDHash : 18D2C750
+	/// @DnDApplyTo : 0bc684e1-a79a-4a6f-a216-45aa6b2a815f
 	/// @DnDParent : 7CA618D1
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "obj_ground"
 	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "object" "84b50e2b-dfe1-4a27-a9b3-89cb8fcf9b30"
+	with(obj_shoe) {
 	var l18D2C750_0 = instance_place(x + 0, y + 0, obj_ground);
+	}
 	if (!(l18D2C750_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
