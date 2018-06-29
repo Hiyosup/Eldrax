@@ -1,5 +1,17 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 4CF709E6
+/// @DnDArgument : "var" "delay"
+delay = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4A6597A4
+/// @DnDArgument : "var" "controls"
+controls = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4FC5D987
 /// @DnDArgument : "var" "selection"
 selection = 0;

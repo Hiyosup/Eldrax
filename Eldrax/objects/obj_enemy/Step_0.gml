@@ -292,13 +292,14 @@ if(enemy_health <= 0)
 	/// @DnDAction : YoYo Games.Random.Choose
 	/// @DnDVersion : 1
 	/// @DnDHash : 6A69D771
-	/// @DnDInput : 3
+	/// @DnDInput : 4
 	/// @DnDParent : 08FDD48A
 	/// @DnDArgument : "var" "rate"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "option_1" "1"
 	/// @DnDArgument : "option_2" "2"
-	var rate = choose(0, 1, 2);
+	/// @DnDArgument : "option_3" "4"
+	var rate = choose(0, 1, 2, 4);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
