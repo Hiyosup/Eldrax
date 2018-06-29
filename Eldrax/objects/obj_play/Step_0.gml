@@ -20,16 +20,16 @@ if(selection < 1)
 /// @DnDHash : 0205230A
 /// @DnDArgument : "var" "selection"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "2"
-if(selection > 2)
+/// @DnDArgument : "value" "3"
+if(selection > 3)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 4581A149
 	/// @DnDParent : 0205230A
-	/// @DnDArgument : "expr" "2"
+	/// @DnDArgument : "expr" "3"
 	/// @DnDArgument : "var" "selection"
-	selection = 2;
+	selection = 3;
 }
 
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
@@ -102,11 +102,22 @@ if (l2F924DCC_0)
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 260C2A21
+	/// @DnDHash : 54251457
 	/// @DnDParent : 2F924DCC
 	/// @DnDArgument : "var" "selection"
 	/// @DnDArgument : "value" "2"
 	if(selection == 2)
+	{
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 260C2A21
+	/// @DnDParent : 2F924DCC
+	/// @DnDArgument : "var" "selection"
+	/// @DnDArgument : "value" "3"
+	if(selection == 3)
 	{
 		/// @DnDAction : YoYo Games.Game.End_Game
 		/// @DnDVersion : 1

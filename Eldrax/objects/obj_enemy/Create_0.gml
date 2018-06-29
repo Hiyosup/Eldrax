@@ -35,9 +35,9 @@ cooldown = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 61A38074
-/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr" "4"
 /// @DnDArgument : "var" "enemy_health"
-enemy_health = 3;
+enemy_health = 4;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
