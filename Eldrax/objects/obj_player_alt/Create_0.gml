@@ -67,3 +67,9 @@ stun = 0;
 /// @DnDHash : 27A1BE99
 /// @DnDArgument : "var" "ani_shoot"
 ani_shoot = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3BEF8E1C
+/// @DnDArgument : "var" "jumpstate"
+jumpstate = 0;
