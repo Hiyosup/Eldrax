@@ -73,3 +73,10 @@ ani_shoot = 0;
 /// @DnDHash : 3BEF8E1C
 /// @DnDArgument : "var" "jumpstate"
 jumpstate = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 270362F5
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "flash"
+flash = 1;
