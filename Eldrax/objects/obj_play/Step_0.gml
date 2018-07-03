@@ -182,9 +182,9 @@ if(controls == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 14E040C3
 	/// @DnDParent : 44F050EF
-	/// @DnDArgument : "spriteind" "spr_player_health"
-	/// @DnDSaveInfo : "spriteind" "10e3be8e-e93d-402f-9f91-f7fe3406f536"
-	sprite_index = spr_player_health;
+	/// @DnDArgument : "spriteind" "spr_controls"
+	/// @DnDSaveInfo : "spriteind" "b492e6bd-69e4-402a-bc61-dab5cc5a1e12"
+	sprite_index = spr_controls;
 	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed

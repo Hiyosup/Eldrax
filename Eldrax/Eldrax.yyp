@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "19925957-abff-4515-8352-0693ae9ba567",
+            "Value": {
+                "id": "c66aee25-1465-477e-b518-c22b2d7bf4c3",
+                "resourcePath": "objects\\obj_trig1\\obj_trig1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ff447a3-288c-40be-a4a8-e30ccc031a39",
             "Value": {
                 "id": "5e014cdd-a890-41cb-b861-b02268cc478e",
