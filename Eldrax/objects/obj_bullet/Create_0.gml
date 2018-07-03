@@ -22,6 +22,13 @@ if(l5EBF683C_0)
 	/// @DnDArgument : "speed" "random_range(-1, 1)"
 	/// @DnDArgument : "type" "2"
 	vspeed = random_range(-1, 1);
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 22FDDBCE
+	/// @DnDParent : 5EBF683C
+	image_xscale = 1;
+	image_yscale = 1;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -48,6 +55,14 @@ if(l45A00D13_0)
 	/// @DnDArgument : "speed" "random_range(-1, 1)"
 	/// @DnDArgument : "type" "2"
 	vspeed = random_range(-1, 1);
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 06951D49
+	/// @DnDParent : 45A00D13
+	/// @DnDArgument : "xscale" "-1"
+	image_xscale = -1;
+	image_yscale = 1;
 }
 
 /// @DnDAction : YoYo Games.Common.Variable
