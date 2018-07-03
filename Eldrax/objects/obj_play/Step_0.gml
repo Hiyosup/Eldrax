@@ -113,11 +113,13 @@ if(controls == 0)
 		/// @DnDArgument : "value" "1"
 		if(selection == 1)
 		{
-			/// @DnDAction : YoYo Games.Rooms.Next_Room
+			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 			/// @DnDVersion : 1
-			/// @DnDHash : 7CC5B340
+			/// @DnDHash : 341A275D
 			/// @DnDParent : 4EA4EA88
-			room_goto_next();
+			/// @DnDArgument : "room" "room_level1"
+			/// @DnDSaveInfo : "room" "e0cf93cf-9f52-4173-a0f0-0d0e21dd9c50"
+			room_goto(room_level1);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable

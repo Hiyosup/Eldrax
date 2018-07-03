@@ -525,22 +525,6 @@ if ((l5EBD6452_0 > 0))
 /// @DnDArgument : "var" "invincible"
 invincible += -1;
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 642B947D
-/// @DnDArgument : "var" "player_health"
-/// @DnDArgument : "op" "3"
-if(player_health <= 0)
-{
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-	/// @DnDVersion : 1
-	/// @DnDHash : 2F530DE6
-	/// @DnDParent : 642B947D
-	/// @DnDArgument : "room" "room_title"
-	/// @DnDSaveInfo : "room" "82afee25-e02c-4353-9029-b631afcb6ff4"
-	room_goto(room_title);
-}
-
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1
 /// @DnDHash : 69B198D8
@@ -623,6 +607,120 @@ if(invincible <= 0)
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "var" "flash"
 	flash = 1;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 642B947D
+/// @DnDArgument : "var" "player_health"
+/// @DnDArgument : "op" "3"
+if(player_health <= 0)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 20BA0946
+	/// @DnDParent : 642B947D
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "dead"
+	dead += 1;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 54979847
+	/// @DnDParent : 642B947D
+	/// @DnDArgument : "type" "1"
+	hspeed = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 1E672350
+	/// @DnDParent : 642B947D
+	/// @DnDArgument : "speed" "0"
+	image_speed = 0;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7E3093F0
+	/// @DnDParent : 642B947D
+	/// @DnDArgument : "var" "dead"
+	/// @DnDArgument : "value" "1"
+	if(dead == 1)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 436357B9
+		/// @DnDParent : 7E3093F0
+		/// @DnDArgument : "spriteind" "spr_player_dead"
+		/// @DnDSaveInfo : "spriteind" "7f5ea5ec-041a-4c5e-9d21-3dddc7c79fb4"
+		sprite_index = spr_player_dead;
+		image_index = 0;
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 389CB035
+	/// @DnDParent : 642B947D
+	/// @DnDArgument : "var" "dead"
+	/// @DnDArgument : "value" "30"
+	if(dead == 30)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 0A2ABED8
+		/// @DnDParent : 389CB035
+		/// @DnDArgument : "imageind" "1"
+		/// @DnDArgument : "spriteind" "spr_player_dead"
+		/// @DnDSaveInfo : "spriteind" "7f5ea5ec-041a-4c5e-9d21-3dddc7c79fb4"
+		sprite_index = spr_player_dead;
+		image_index = 1;
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 70067147
+	/// @DnDParent : 642B947D
+	/// @DnDArgument : "var" "dead"
+	/// @DnDArgument : "value" "60"
+	if(dead == 60)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 6C31B869
+		/// @DnDParent : 70067147
+		/// @DnDArgument : "imageind" "2"
+		/// @DnDArgument : "spriteind" "spr_player_dead"
+		/// @DnDSaveInfo : "spriteind" "7f5ea5ec-041a-4c5e-9d21-3dddc7c79fb4"
+		sprite_index = spr_player_dead;
+		image_index = 2;
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 65945448
+	/// @DnDParent : 642B947D
+	/// @DnDArgument : "var" "dead"
+	/// @DnDArgument : "value" "120"
+	if(dead == 120)
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 07DDB44B
+		/// @DnDParent : 65945448
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_play"
+		/// @DnDArgument : "layer" ""UI""
+		/// @DnDSaveInfo : "objectid" "81c43f32-6433-4aac-8681-eac927f2c1cf"
+		instance_create_layer(x + 0, y + 0, "UI", obj_play);
+	}
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 4BA3871B
+	/// @DnDParent : 642B947D
+	/// @DnDArgument : "code" "exit;"
+	exit;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
