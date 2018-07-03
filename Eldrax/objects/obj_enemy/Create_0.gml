@@ -44,3 +44,15 @@ enemy_health = 4;
 /// @DnDHash : 41D3EA78
 /// @DnDArgument : "var" "stun"
 stun = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6E90B40D
+/// @DnDArgument : "var" "dead"
+dead = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 06A295F2
+/// @DnDArgument : "var" "idling"
+idling = 0;
