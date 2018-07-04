@@ -11,7 +11,7 @@ if(story > 0)
 	/// @DnDParent : 073B4CA6
 	/// @DnDArgument : "x" "obj_player_alt.x"
 	/// @DnDArgument : "y" "obj_player_alt.y-64"
-	/// @DnDArgument : "sprite" "spr_pickup"
-	/// @DnDSaveInfo : "sprite" "885b6888-2cc3-49d8-92cb-69daa0deadfd"
-	draw_sprite(spr_pickup, 0, obj_player_alt.x, obj_player_alt.y-64);
+	/// @DnDArgument : "sprite" "spr_txt1"
+	/// @DnDSaveInfo : "sprite" "49f1b722-106c-4348-a2cc-2db380e0d702"
+	draw_sprite(spr_txt1, 0, obj_player_alt.x, obj_player_alt.y-64);
 }
