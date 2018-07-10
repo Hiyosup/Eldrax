@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "a2346140-7856-438b-ab5d-64d186cede07",
+            "Value": {
+                "id": "1fe06198-e5e9-4c5e-b9a0-7e90d588a621",
+                "resourcePath": "rooms\\room_splash\\room_splash.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a259308c-d895-4b60-ab7d-d4e81dace0a7",
             "Value": {
                 "id": "394c4bb8-64f1-489e-9f00-bee4501b874a",
