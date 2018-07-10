@@ -212,7 +212,8 @@ if(controls == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 054A0D0D
 	/// @DnDParent : 44F050EF
-	image_alpha = 1;
+	/// @DnDArgument : "alpha_relative" "1"
+	image_alpha += 1;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
