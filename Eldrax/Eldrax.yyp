@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "24b8bce4-7fdf-4d9d-9cf2-f444f8201ce8",
+            "Value": {
+                "id": "b2d15a58-ae5f-49d3-b8f9-0c4378e1cbb7",
+                "resourcePath": "sprites\\spr_hiyocrystal\\spr_hiyocrystal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "286cec66-48bb-4e55-9cb5-8dc1ad26f671",
             "Value": {
                 "id": "165df9eb-5f69-4c79-aaec-9f8fbc105740",
@@ -228,6 +236,14 @@
                 "id": "3edd3ff4-0ea5-45ff-bd8c-06c057edbb69",
                 "resourcePath": "sprites\\spr_player_dead\\spr_player_dead.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "801431d8-5e63-4675-8f2b-c6ab3c8b9d6a",
+            "Value": {
+                "id": "742d1363-9217-47da-8f67-b9d385f1b062",
+                "resourcePath": "objects\\obj_hiyocrystal\\obj_hiyocrystal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
