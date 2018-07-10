@@ -721,14 +721,6 @@ if(player_health <= 0)
 		/// @DnDArgument : "layer" ""UI""
 		/// @DnDSaveInfo : "objectid" "81c43f32-6433-4aac-8681-eac927f2c1cf"
 		instance_create_layer(x + 0, y + 0, "UI", obj_play);
-	
-		/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-		/// @DnDVersion : 1
-		/// @DnDHash : 208BEC90
-		/// @DnDApplyTo : 81c43f32-6433-4aac-8681-eac927f2c1cf
-		/// @DnDParent : 65945448
-		/// @DnDArgument : "alpha" ".5"
-		with(obj_play) image_alpha = .5;
 	}
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
