@@ -20,7 +20,7 @@ if ((l0584831B_0 > 0))
 	/// @DnDVersion : 1
 	/// @DnDHash : 78B4B199
 	/// @DnDParent : 0584831B
-	/// @DnDArgument : "expr" "300"
+	/// @DnDArgument : "expr" "120"
 	/// @DnDArgument : "var" "story"
-	story = 300;
+	story = 120;
 }
