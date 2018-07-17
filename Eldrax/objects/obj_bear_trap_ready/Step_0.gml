@@ -35,14 +35,6 @@ if ((l51AB01C5_0 > 0))
 var l49EFCCD8_0 = instance_place(x + 0, y + 0, obj_enemy);
 if ((l49EFCCD8_0 > 0))
 {
-	/// @DnDAction : YoYo Games.Instances.Change_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 2902FB87
-	/// @DnDParent : 49EFCCD8
-	/// @DnDArgument : "objind" "obj_bear_trap_sprung"
-	/// @DnDSaveInfo : "objind" "4c4337bf-7b94-404d-bb2c-713f3d5519ba"
-	instance_change(obj_bear_trap_sprung, true);
-
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 7D1F13DF
@@ -50,4 +42,12 @@ if ((l49EFCCD8_0 > 0))
 	/// @DnDArgument : "soundid" "snd_bear_trap"
 	/// @DnDSaveInfo : "soundid" "f5fcdfb1-2e68-4512-803b-3ef5ae12bea4"
 	audio_play_sound(snd_bear_trap, 0, 0);
+
+	/// @DnDAction : YoYo Games.Instances.Change_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 2902FB87
+	/// @DnDParent : 49EFCCD8
+	/// @DnDArgument : "objind" "obj_bear_trap_sprung"
+	/// @DnDSaveInfo : "objind" "4c4337bf-7b94-404d-bb2c-713f3d5519ba"
+	instance_change(obj_bear_trap_sprung, true);
 }
