@@ -21,3 +21,11 @@ selection = 0;
 /// @DnDHash : 3BE92B0D
 /// @DnDArgument : "speed" "0"
 image_speed = 0;
+
+/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
+/// @DnDVersion : 1
+/// @DnDHash : 08056BF7
+/// @DnDArgument : "sound" "snd_cursor_select"
+/// @DnDArgument : "volume" ".25"
+/// @DnDSaveInfo : "sound" "61a788b4-cffb-4029-baaf-54dcc9588b5f"
+audio_sound_gain(snd_cursor_select, .25, 0);
