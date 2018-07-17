@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
 /// @DnDHash : 7F512629
-/// @DnDArgument : "key" "vk_escape"
+/// @DnDArgument : "key" "ord("P")"
 var l7F512629_0;
-l7F512629_0 = keyboard_check_pressed(vk_escape);
+l7F512629_0 = keyboard_check_pressed(ord("P"));
 if (l7F512629_0)
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code

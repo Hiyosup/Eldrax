@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "b029ce75-1108-41d5-99ca-d293dbe551ac",
+            "Value": {
+                "id": "4207b24e-7f0a-4cdb-8f6f-d86011aaa7af",
+                "resourcePath": "objects\\obj_fullscreen\\obj_fullscreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b492e6bd-69e4-402a-bc61-dab5cc5a1e12",
             "Value": {
                 "id": "f616d0a9-758c-40c8-862a-547d3677166f",
