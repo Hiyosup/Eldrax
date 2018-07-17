@@ -52,4 +52,12 @@ if ((l0E51B4F2_0 > 0))
 	/// @DnDHash : 1FDBB707
 	/// @DnDParent : 0E51B4F2
 	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 37EBADC6
+	/// @DnDParent : 0E51B4F2
+	/// @DnDArgument : "soundid" "snd_pickup"
+	/// @DnDSaveInfo : "soundid" "67aa7d8f-0628-4bf3-8ff9-f0600e6b564b"
+	audio_play_sound(snd_pickup, 0, 0);
 }

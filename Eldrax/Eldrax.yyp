@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "5ca0efa9-4c3c-4273-a138-1f01757f21c3",
+            "Value": {
+                "id": "cb2cedaa-34a9-4f66-9c21-3005fda22eb3",
+                "resourcePath": "sounds\\snd_beast\\snd_beast.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5d82c2dd-db61-4c19-bfde-8602d7b5e43f",
             "Value": {
                 "id": "dcf500c5-8ba4-4bda-81bd-56846e34b870",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "61a788b4-cffb-4029-baaf-54dcc9588b5f",
+            "Value": {
+                "id": "7f3b0a62-c32e-4464-8feb-2be6e2b27dec",
+                "resourcePath": "sounds\\snd_cursor_select\\snd_cursor_select.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "61cedbd6-9214-44dc-88a9-0f2414172d38",
             "Value": {
                 "id": "7753c60c-2310-40a2-ae97-547117f7652b",
@@ -292,6 +308,14 @@
                 "id": "84ca6091-3f87-42a2-91e3-d66fcc4e7ec1",
                 "resourcePath": "objects\\obj_trans\\obj_trans.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "67aa7d8f-0628-4bf3-8ff9-f0600e6b564b",
+            "Value": {
+                "id": "6c266bd5-1637-4e1a-9e69-b69d83534726",
+                "resourcePath": "sounds\\snd_pickup\\snd_pickup.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -396,6 +420,14 @@
                 "id": "0f5043c4-3de7-402d-b7f4-be1fc140460d",
                 "resourcePath": "rooms\\room_test\\room_test.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8a6eb680-729a-4367-9913-851ce7929462",
+            "Value": {
+                "id": "21e1c6ec-5491-4e21-888e-3ce2dfe18fef",
+                "resourcePath": "sprites\\sprite37\\sprite37.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -756,6 +788,14 @@
                 "id": "f7bc6f8f-b2d2-478a-91a5-ee35631b2dea",
                 "resourcePath": "views\\f1e54284-e4da-43c2-a538-e9a493190eed.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f5fcdfb1-2e68-4512-803b-3ef5ae12bea4",
+            "Value": {
+                "id": "cc9c85c6-ead7-4f69-9f0b-2fb444dea4dd",
+                "resourcePath": "sounds\\snd_bear_trap\\snd_bear_trap.yy",
+                "resourceType": "GMSound"
             }
         },
         {
