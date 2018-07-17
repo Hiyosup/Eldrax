@@ -19,8 +19,8 @@ if(l0D7C0A61_0)
 	/// @DnDHash : 18AF8C2C
 	/// @DnDParent : 0D7C0A61
 	/// @DnDArgument : "x" "obj_player_alt.x+(position*16)"
-	/// @DnDArgument : "y" "obj_player_alt.y-80"
-	direction = point_direction(x, y, obj_player_alt.x+(position*16), obj_player_alt.y-80);
+	/// @DnDArgument : "y" "obj_player_alt.y-72"
+	direction = point_direction(x, y, obj_player_alt.x+(position*16), obj_player_alt.y-72);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
