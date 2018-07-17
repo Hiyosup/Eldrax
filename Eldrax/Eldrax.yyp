@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "4acb740f-3348-4972-82b9-5d2af8979860",
+            "Value": {
+                "id": "103ae5cd-29fb-4243-b473-cd2a0b84fda6",
+                "resourcePath": "objects\\obj_crystal_pickup\\obj_crystal_pickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4c4337bf-7b94-404d-bb2c-713f3d5519ba",
             "Value": {
                 "id": "b25caa54-3797-4630-9958-3663acddfa4b",
