@@ -56,3 +56,10 @@ dead = 0;
 /// @DnDHash : 06A295F2
 /// @DnDArgument : "var" "idling"
 idling = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 10048FDB
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "bGrowled"
+bGrowled = false;
