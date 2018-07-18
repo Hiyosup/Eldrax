@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
 /// @DnDHash : 7F512629
-/// @DnDArgument : "key" "vk_escape"
+/// @DnDArgument : "key" "vk_f1"
 var l7F512629_0;
-l7F512629_0 = keyboard_check_pressed(vk_escape);
+l7F512629_0 = keyboard_check_pressed(vk_f1);
 if (l7F512629_0)
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
@@ -23,4 +23,19 @@ if (l7F512629_0)
 			instance_activate_all();
 		}
 	}
+}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 29DC2709
+/// @DnDArgument : "key" "vk_escape"
+var l29DC2709_0;
+l29DC2709_0 = keyboard_check_pressed(vk_escape);
+if (l29DC2709_0)
+{
+	/// @DnDAction : YoYo Games.Game.End_Game
+	/// @DnDVersion : 1
+	/// @DnDHash : 5EDBF5DE
+	/// @DnDParent : 29DC2709
+	game_end();
 }

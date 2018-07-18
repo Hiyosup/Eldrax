@@ -60,6 +60,19 @@ idling = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 10048FDB
-/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "bGrowled"
-bGrowled = false;
+bGrowled = true;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 6975776E
+/// @DnDArgument : "steps" "irandom_range(180,300)"
+alarm_set(0, irandom_range(180,300));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1E96F9CA
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "growl_range"
+growl_range = false;
