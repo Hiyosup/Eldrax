@@ -413,8 +413,8 @@ if(enemy_health <= 0)
 	/// @DnDHash : 4BB5EC8D
 	/// @DnDParent : 08FDD48A
 	/// @DnDArgument : "var" "dead"
-	/// @DnDArgument : "value" "15"
-	if(dead == 15)
+	/// @DnDArgument : "value" "14"
+	if(dead == 14)
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
@@ -432,8 +432,8 @@ if(enemy_health <= 0)
 	/// @DnDHash : 65B561A1
 	/// @DnDParent : 08FDD48A
 	/// @DnDArgument : "var" "dead"
-	/// @DnDArgument : "value" "30"
-	if(dead == 30)
+	/// @DnDArgument : "value" "15"
+	if(dead == 15)
 	{
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
