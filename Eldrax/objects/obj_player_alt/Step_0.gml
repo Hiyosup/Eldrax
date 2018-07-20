@@ -500,10 +500,10 @@ if(stun > 0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 18580361
 		/// @DnDParent : 77261D09
-		/// @DnDArgument : "expr" "-90"
+		/// @DnDArgument : "expr" "-45"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "invincible"
-		invincible += -90;
+		invincible += -45;
 	}
 }
 
