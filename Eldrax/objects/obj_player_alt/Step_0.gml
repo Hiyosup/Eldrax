@@ -199,6 +199,14 @@ if(grounded == 1)
 		/// @DnDArgument : "var" "jump"
 		jump = 0;
 	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 23F8338E
+		/// @DnDParent : 5364AF9D
+		/// @DnDArgument : "soundid" "snd_jump"
+		/// @DnDSaveInfo : "soundid" "045c2773-aef2-4fb5-b6d0-786a4feb755c"
+		audio_play_sound(snd_jump, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
 		/// @DnDHash : 4FF241D4
