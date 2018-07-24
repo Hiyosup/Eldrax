@@ -372,6 +372,14 @@ if(enemy_health <= 0)
 			/// @DnDSaveInfo : "objectid" "75c3e05f-f0d8-4c93-961f-c12202a1e1c2"
 			instance_create_layer(x + 0, y + 0, "Instances", obj_pickup);
 		}
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 5A156C29
+		/// @DnDParent : 3B168AFC
+		/// @DnDArgument : "soundid" "snd_deathbeast"
+		/// @DnDSaveInfo : "soundid" "86e35f95-c7e3-4aae-8092-11fc1e51ccc8"
+		audio_play_sound(snd_deathbeast, 0, 0);
 	}
 
 	/// @DnDAction : YoYo Games.Common.Variable
