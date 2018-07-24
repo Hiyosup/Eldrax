@@ -12,3 +12,10 @@ image_speed = 0;
 /// @DnDSaveInfo : "spriteind" "ea914ca0-9de4-4838-afe7-8ed6777ceff8"
 sprite_index = spr_enemy_death;
 image_index = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 55CADD55
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "transparency"
+transparency = 1;
