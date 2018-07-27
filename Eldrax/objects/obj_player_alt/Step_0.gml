@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0F9A41AF
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "spawning"
+spawning += 1;
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 7803B6C6
