@@ -15,14 +15,6 @@ if(l5EBF683C_0)
 	/// @DnDArgument : "type" "1"
 	hspeed = 16;
 
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 1AA535FC
-	/// @DnDParent : 5EBF683C
-	/// @DnDArgument : "speed" "random_range(-1, 1)"
-	/// @DnDArgument : "type" "2"
-	vspeed = random_range(-1, 1);
-
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
 	/// @DnDHash : 22FDDBCE
@@ -47,14 +39,6 @@ if(l45A00D13_0)
 	/// @DnDArgument : "speed" "-16"
 	/// @DnDArgument : "type" "1"
 	hspeed = -16;
-
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 3C4D7270
-	/// @DnDParent : 45A00D13
-	/// @DnDArgument : "speed" "random_range(-1, 1)"
-	/// @DnDArgument : "type" "2"
-	vspeed = random_range(-1, 1);
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
