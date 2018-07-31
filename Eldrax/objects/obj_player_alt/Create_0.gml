@@ -86,3 +86,9 @@ flash = 1;
 /// @DnDHash : 67CE65F4
 /// @DnDArgument : "var" "dead"
 dead = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1CA789EE
+/// @DnDArgument : "var" "spawning"
+spawning = 0;
