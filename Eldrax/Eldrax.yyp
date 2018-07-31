@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "20179447-7d22-44b4-8834-5d34b7ef0d1b",
+            "Value": {
+                "id": "56fd6e5e-a532-4fe1-9b64-a92e6fd02f6b",
+                "resourcePath": "sounds\\sndTitleScreen\\sndTitleScreen.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "212c8dec-225f-42ae-b410-1d4195b17439",
             "Value": {
                 "id": "b66c29d6-4cbd-4024-b3a6-0c590d6edf8e",
