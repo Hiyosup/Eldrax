@@ -599,10 +599,26 @@
             }
         },
         {
+            "Key": "916c4e2b-a7ee-42d6-acba-5c01d4df5efc",
+            "Value": {
+                "id": "001107e4-cfe3-4b58-b7bf-d98a4e8153b9",
+                "resourcePath": "sprites\\spr_rockplatform\\spr_rockplatform.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "93cdad91-06e0-4e5b-bbf5-ae9f60848799",
             "Value": {
                 "id": "804f50b4-108d-47d8-b2b5-29443a4a90ca",
                 "resourcePath": "objects\\obj_bear_trap_ready\\obj_bear_trap_ready.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9843dcf1-1944-43dd-b9e1-aaba4b539d91",
+            "Value": {
+                "id": "fa5f1158-2893-4a50-9730-b7c23e6811c3",
+                "resourcePath": "objects\\obj_rockplatform\\obj_rockplatform.yy",
                 "resourceType": "GMObject"
             }
         },
