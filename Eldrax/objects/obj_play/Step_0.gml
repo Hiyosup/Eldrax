@@ -54,8 +54,7 @@ if(controls == 0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 645AC812
 		/// @DnDParent : 0B3A32CE
-		/// @DnDArgument : "alpha" ".5"
-		image_alpha = .5;
+		image_alpha = 1;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
