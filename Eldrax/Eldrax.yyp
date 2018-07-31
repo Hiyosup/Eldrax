@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "39ec3531-134f-4b67-8b4f-324526b8d44f",
+            "Value": {
+                "id": "f3371f7b-277b-4e81-9b82-002a1cc6823c",
+                "resourcePath": "objects\\obj_smite\\obj_smite.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a2422e4-88e6-4489-9416-54ff5f7b297c",
             "Value": {
                 "id": "d4d08b87-7427-41ae-8db5-0a727c7f32fe",
@@ -315,6 +323,14 @@
             "Value": {
                 "id": "3b751b43-349d-456b-acfe-118d2d72677f",
                 "resourcePath": "sprites\\spr_menu_button\\spr_menu_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5735e38b-9c62-48b3-b692-ad7b1a13bf1d",
+            "Value": {
+                "id": "e9d115a4-a9e9-4e68-9669-2566b5bb73bf",
+                "resourcePath": "sprites\\spr_smite\\spr_smite.yy",
                 "resourceType": "GMSprite"
             }
         },
