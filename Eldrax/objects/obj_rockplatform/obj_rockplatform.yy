@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_rockplatform",
     "eventList": [
-        {
-            "id": "f8dfff7e-ec35-4e7a-a16e-78753709832d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "9843dcf1-1944-43dd-b9e1-aaba4b539d91"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
