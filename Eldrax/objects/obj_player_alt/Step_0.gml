@@ -777,6 +777,17 @@ if(player_health <= 0)
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
+		/// @DnDHash : 7E8E671D
+		/// @DnDParent : 65945448
+		/// @DnDArgument : "xpos" "cx+(cw/2)"
+		/// @DnDArgument : "ypos" "cy+(ch/2)-200"
+		/// @DnDArgument : "objectid" "obj_deathScreen"
+		/// @DnDArgument : "layer" ""UI""
+		/// @DnDSaveInfo : "objectid" "e2d12961-5d82-4273-80f2-80dab8a17b5d"
+		instance_create_layer(cx+(cw/2), cy+(ch/2)-200, "UI", obj_deathScreen);
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
 		/// @DnDHash : 07DDB44B
 		/// @DnDParent : 65945448
 		/// @DnDArgument : "xpos" "cx+(cw/2)"

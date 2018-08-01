@@ -983,6 +983,14 @@
             }
         },
         {
+            "Key": "e2d12961-5d82-4273-80f2-80dab8a17b5d",
+            "Value": {
+                "id": "11b78455-6484-4b7e-8c77-fc4d896fc9ac",
+                "resourcePath": "objects\\obj_deathScreen\\obj_deathScreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e533cab7-423c-4429-90d6-a92578bf6d97",
             "Value": {
                 "id": "0bc3829e-4b0c-438a-9c7e-fa9b55584abc",
