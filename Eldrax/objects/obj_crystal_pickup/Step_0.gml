@@ -23,9 +23,9 @@ if ((l408FDDFD_0 > 0))
 	/// @DnDVersion : 1
 	/// @DnDHash : 79CD4D21
 	/// @DnDParent : 408FDDFD
-	/// @DnDArgument : "soundid" "snd_pickup"
-	/// @DnDSaveInfo : "soundid" "67aa7d8f-0628-4bf3-8ff9-f0600e6b564b"
-	audio_play_sound(snd_pickup, 0, 0);
+	/// @DnDArgument : "soundid" "snd_jump"
+	/// @DnDSaveInfo : "soundid" "045c2773-aef2-4fb5-b6d0-786a4feb755c"
+	audio_play_sound(snd_jump, 0, 0);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

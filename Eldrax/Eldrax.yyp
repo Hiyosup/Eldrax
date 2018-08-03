@@ -847,6 +847,14 @@
             }
         },
         {
+            "Key": "c71f8c2e-0bb3-4dfe-ba0b-53a01f2367fd",
+            "Value": {
+                "id": "fadd65ef-71c7-4c5c-afd4-d6aa6ab7e310",
+                "resourcePath": "sounds\\snd_zap\\snd_zap.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c8d99c8b-3f88-45c8-81bb-7cce82a10687",
             "Value": {
                 "id": "76d9aba3-f8dd-482d-b1a9-463696fa1fc3",
