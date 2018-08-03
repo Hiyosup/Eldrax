@@ -26,14 +26,14 @@ image_speed = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 08056BF7
 /// @DnDArgument : "sound" "snd_cursor_select"
-/// @DnDArgument : "volume" ".25"
+/// @DnDArgument : "volume" ".1"
 /// @DnDSaveInfo : "sound" "61a788b4-cffb-4029-baaf-54dcc9588b5f"
-audio_sound_gain(snd_cursor_select, .25, 0);
+audio_sound_gain(snd_cursor_select, .1, 0);
 
 /// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
 /// @DnDVersion : 1
 /// @DnDHash : 71570082
 /// @DnDArgument : "sound" "sndTitleScreen"
-/// @DnDArgument : "volume" ".25"
+/// @DnDArgument : "volume" ".1"
 /// @DnDSaveInfo : "sound" "20179447-7d22-44b4-8834-5d34b7ef0d1b"
-audio_sound_gain(sndTitleScreen, .25, 0);
+audio_sound_gain(sndTitleScreen, .1, 0);

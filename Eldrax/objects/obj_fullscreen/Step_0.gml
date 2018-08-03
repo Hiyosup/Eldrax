@@ -1,3 +1,41 @@
+/// @DnDAction : YoYo Games.Audio.Audio_Get_Master_Volume
+/// @DnDVersion : 1
+/// @DnDHash : 5EAFB4A5
+/// @DnDArgument : "var" "sndmaster"
+sndmaster = audio_get_master_gain(0);
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 613A7AA9
+/// @DnDArgument : "key" "vk_f2"
+var l613A7AA9_0;
+l613A7AA9_0 = keyboard_check_pressed(vk_f2);
+if (l613A7AA9_0)
+{
+	/// @DnDAction : YoYo Games.Audio.Audo_Set_Master_Volume
+	/// @DnDVersion : 1
+	/// @DnDHash : 7162BCA3
+	/// @DnDParent : 613A7AA9
+	/// @DnDArgument : "volume" "sndmaster+0.2"
+	audio_set_master_gain(0, sndmaster+0.2);
+}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 03060F80
+/// @DnDArgument : "key" "vk_f3"
+var l03060F80_0;
+l03060F80_0 = keyboard_check_pressed(vk_f3);
+if (l03060F80_0)
+{
+	/// @DnDAction : YoYo Games.Audio.Audo_Set_Master_Volume
+	/// @DnDVersion : 1
+	/// @DnDHash : 0370E79E
+	/// @DnDParent : 03060F80
+	/// @DnDArgument : "volume" "sndmaster-0.2"
+	audio_set_master_gain(0, sndmaster-0.2);
+}
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
 /// @DnDHash : 428935D1
