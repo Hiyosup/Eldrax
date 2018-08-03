@@ -92,3 +92,11 @@ dead = 0;
 /// @DnDHash : 1CA789EE
 /// @DnDArgument : "var" "spawning"
 spawning = 0;
+
+/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
+/// @DnDVersion : 1
+/// @DnDHash : 76BDB101
+/// @DnDArgument : "sound" "snd_shoot"
+/// @DnDArgument : "volume" ".1"
+/// @DnDSaveInfo : "sound" "e5db298c-8dc9-4a43-9474-b781d86428c2"
+audio_sound_gain(snd_shoot, .1, 0);

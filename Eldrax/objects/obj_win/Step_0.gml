@@ -57,6 +57,14 @@ if(timer == 1)
 /// @DnDArgument : "value" "60"
 if(countdown >= 60)
 {
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 64FC6467
+	/// @DnDParent : 0125CF33
+	/// @DnDArgument : "soundid" "snd_themeMusic"
+	/// @DnDSaveInfo : "soundid" "9bb6f637-0acd-439e-a400-9d0364553f0c"
+	audio_stop_sound(snd_themeMusic);
+
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 50FE924F
