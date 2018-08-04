@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "6232f6d0-71ac-4ae4-adec-77cb8eb15288",
+            "Value": {
+                "id": "bbc6a3db-e7a9-43f0-948c-43462295d3b7",
+                "resourcePath": "sprites\\spr_bigtree2\\spr_bigtree2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "632c0e16-5c7c-4e30-a04e-a68faf08ec23",
             "Value": {
                 "id": "5dc9e674-422a-47f1-beaf-f7d66bf29e7d",
@@ -655,14 +663,6 @@
             }
         },
         {
-            "Key": "9bf10e73-bf7a-44ae-b0c6-5a5651fdff07",
-            "Value": {
-                "id": "f5bb1d6e-57b1-4124-bf1d-0fa5e8161cf2",
-                "resourcePath": "views\\9bf10e73-bf7a-44ae-b0c6-5a5651fdff07.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "a1f4f20a-0b6b-47ee-9a0a-9e8638450db7",
             "Value": {
                 "id": "045f7cb0-ee2e-43b0-88b3-161988636927",
@@ -903,6 +903,14 @@
             }
         },
         {
+            "Key": "ce0a930c-da4a-4708-8cff-35ecc96a5450",
+            "Value": {
+                "id": "cda30f87-603d-49ca-9d1f-c8d328063ede",
+                "resourcePath": "sprites\\spr_moretile\\spr_moretile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cf6dcd4e-8e04-4604-9d6e-344d22e1e4eb",
             "Value": {
                 "id": "98d1b624-72c4-42d5-a597-45311c0f71ed",
@@ -999,6 +1007,14 @@
             }
         },
         {
+            "Key": "e2f313d1-9df3-49bc-866e-74ece0688984",
+            "Value": {
+                "id": "0fbf3d3d-7b02-4a7a-a22a-af36b248414f",
+                "resourcePath": "tilesets\\tile_moretile\\tile_moretile.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "e533cab7-423c-4429-90d6-a92578bf6d97",
             "Value": {
                 "id": "0bc3829e-4b0c-438a-9c7e-fa9b55584abc",
@@ -1075,6 +1091,14 @@
             "Value": {
                 "id": "ec02d5f1-72dc-4500-a0df-b3b309a994ca",
                 "resourcePath": "objects\\obj_branchl\\obj_branchl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eef86a3f-130f-484b-bf30-7af942baaf8b",
+            "Value": {
+                "id": "408c5244-2d85-494c-9977-4da235cd61a8",
+                "resourcePath": "objects\\obj_bigtree2\\obj_bigtree2.yy",
                 "resourceType": "GMObject"
             }
         },
