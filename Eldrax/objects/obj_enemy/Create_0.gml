@@ -76,3 +76,11 @@ alarm_set(0, irandom_range(180,300));
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "growl_range"
 growl_range = false;
+
+/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
+/// @DnDVersion : 1
+/// @DnDHash : 312A0C2A
+/// @DnDArgument : "sound" "snd_deathbeast"
+/// @DnDArgument : "volume" "0.25"
+/// @DnDSaveInfo : "sound" "86e35f95-c7e3-4aae-8092-11fc1e51ccc8"
+audio_sound_gain(snd_deathbeast, 0.25, 0);
