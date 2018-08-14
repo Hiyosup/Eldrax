@@ -13,8 +13,9 @@ controls = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4FC5D987
+/// @DnDArgument : "expr" "2"
 /// @DnDArgument : "var" "selection"
-selection = 0;
+selection = 2;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
