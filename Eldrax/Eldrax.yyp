@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "07dc6daf-978d-4c11-9991-a948f8272c62",
+            "Value": {
+                "id": "90477f30-505a-47e9-88c6-fc99b8de8697",
+                "resourcePath": "sprites\\spr_crystaltree\\spr_crystaltree.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "096a7b39-be5a-4ad0-b844-6f1d5c9ab41a",
             "Value": {
                 "id": "61cfed42-59e3-4a28-b320-2039f5b84f84",
@@ -140,6 +148,14 @@
                 "id": "1ecbe50c-524f-4364-8f54-b173d2011ccf",
                 "resourcePath": "sprites\\spr_bookopen\\spr_bookopen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "18dcfd6b-0e90-43a8-988b-b1e9a6ef8c8a",
+            "Value": {
+                "id": "2c78b83b-f8c5-495c-a799-4dbeaa759948",
+                "resourcePath": "objects\\obj_crystaltree\\obj_crystaltree.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1015,6 +1031,14 @@
             }
         },
         {
+            "Key": "bef70686-db3e-4316-98e6-2fe7e29bf08a",
+            "Value": {
+                "id": "6a453582-20f7-4564-b362-feab27810a10",
+                "resourcePath": "sprites\\spr_crystaltree2\\spr_crystaltree2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c09eac12-1d99-4263-89d8-3c9cbf9abebd",
             "Value": {
                 "id": "c9226f3d-306f-4c57-901d-732ef6f51e36",
@@ -1164,6 +1188,14 @@
                 "id": "6e21fb92-965e-475d-98ac-545a9c91687f",
                 "resourcePath": "sprites\\spr_tile_dirt\\spr_tile_dirt.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d2dd7f8c-12b4-4157-bbcb-1d5dc338fcb1",
+            "Value": {
+                "id": "9cbb1aef-309a-4b56-97b6-44bf4cfdb461",
+                "resourcePath": "objects\\obj_crystaltree2\\obj_crystaltree2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
