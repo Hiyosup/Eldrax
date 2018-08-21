@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 055D7882
-/// @DnDArgument : "expr" "30"
+/// @DnDArgument : "expr" "15"
 /// @DnDArgument : "var" "delay"
-delay = 30;
+delay = 15;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
