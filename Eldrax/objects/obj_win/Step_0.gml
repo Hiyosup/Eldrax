@@ -53,9 +53,8 @@ if(timer == 1)
 /// @DnDVersion : 1
 /// @DnDHash : 0125CF33
 /// @DnDArgument : "var" "countdown"
-/// @DnDArgument : "op" "4"
 /// @DnDArgument : "value" "60"
-if(countdown >= 60)
+if(countdown == 60)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
